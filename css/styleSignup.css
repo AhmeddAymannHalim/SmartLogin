@@ -1,0 +1,33 @@
+body{
+    background-color: #24353f;
+}
+.design-login{
+    box-shadow: -1px 1px 27px 4px rgba(0,0,0,0.92);
+    height: 420px;
+    
+}
+h1{
+    color: #17a2b8;
+    font-family: 'Titillium Web', sans-serif;
+}
+.design-login .row form input{
+    border: 1px solid #ced4da;
+    background-color: transparent;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: none;
+    color:#ced4da ;
+}
+.design-login .row form input:focus{
+    border-color: #80bdff;
+}
+::placeholder{
+    color: #ced4da !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline white;
+}
